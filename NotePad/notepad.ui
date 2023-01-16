@@ -126,6 +126,10 @@
       <height>24</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -166,6 +170,10 @@
       <height>24</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -194,13 +202,19 @@
     </property>
     <property name="icon">
      <iconset resource="resources.qrc">
-      <normaloff>:/imgs/imgs/center_icon.png</normaloff>:/imgs/imgs/center_icon.png</iconset>
+      <normaloff>:/imgs/imgs/align_center_icon.png</normaloff>:/imgs/imgs/align_center_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="italic_button">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>710</x>
       <y>20</y>
       <width>31</width>
       <height>24</height>
@@ -223,22 +237,30 @@
       <height>24</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
+    </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
      <iconset resource="resources.qrc">
-      <normaloff>:/imgs/imgs/center_icon.png</normaloff>:/imgs/imgs/center_icon.png</iconset>
+      <normaloff>:/imgs/imgs/align_center_icon.png</normaloff>:/imgs/imgs/align_center_icon.png</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="italic_button_2">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>710</x>
       <y>20</y>
       <width>31</width>
       <height>24</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
     </property>
     <property name="text">
      <string/>
@@ -251,7 +273,7 @@
    <widget class="QPushButton" name="linethrough">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>750</x>
       <y>20</y>
       <width>31</width>
       <height>24</height>
@@ -274,11 +296,15 @@
    <widget class="QPushButton" name="linethrough_2">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>750</x>
       <y>20</y>
       <width>31</width>
       <height>24</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
     </property>
     <property name="text">
      <string/>
@@ -361,6 +387,133 @@
      </rect>
     </property>
    </widget>
+   <widget class="QComboBox" name="case_combo">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>20</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lowercase</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uppercase</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sentence</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="align_right_button">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>20</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/align_right_icon.png</normaloff>:/imgs/imgs/align_right_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="align_right_2_button">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>20</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/align_right_icon.png</normaloff>:/imgs/imgs/align_right_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="align_left_button">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/align_left_icon.png</normaloff>:/imgs/imgs/align_left_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="align_left_button_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: grey;
+ </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/imgs/imgs/align_left_icon.png</normaloff>:/imgs/imgs/align_left_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>align_left_button_2</zorder>
+   <zorder>align_right_2_button</zorder>
    <zorder>linethrough_2</zorder>
    <zorder>italic_button_2</zorder>
    <zorder>center_button_2</zorder>
@@ -379,6 +532,9 @@
    <zorder>copy_button</zorder>
    <zorder>cut_button</zorder>
    <zorder>lineEdit</zorder>
+   <zorder>case_combo</zorder>
+   <zorder>align_right_button</zorder>
+   <zorder>align_left_button</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -390,6 +546,13 @@
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
+    <property name="styleSheet">
+     <string notr="true">QMenu
+{
+	width: 200px;
+	background-color: white;
+}</string>
+    </property>
     <property name="title">
      <string>File</string>
     </property>
@@ -402,8 +565,14 @@
      <string>Home</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuHome"/>
+   <addaction name="menuView"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionSave">

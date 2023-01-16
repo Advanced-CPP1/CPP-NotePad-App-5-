@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QColorDialog>
 #include <QKeyEvent>
+#include <algorithm>
+#include <string>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class NotePad; }
@@ -36,8 +38,6 @@ private slots:
 
     void on_italic_button_clicked();
 
-    void on_center_button_2_clicked();
-
     void on_italic_button_2_clicked();
 
     void on_linethrough_clicked();
@@ -53,6 +53,12 @@ private slots:
     void on_actionExit_triggered();
 
     void on_lineEdit_textChanged(const QString &arg1);
+
+    void on_case_combo_activated(int index);
+
+    void on_align_right_button_clicked();
+
+    void on_align_left_button_clicked();
 
 private:
     Ui::NotePad *ui;
